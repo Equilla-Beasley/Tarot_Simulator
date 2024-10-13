@@ -10,9 +10,7 @@ import javax.swing.*;
  * @author Equilla Beasley Jr.
  *
  */
-
 public class SimulatorWindow {
-	
 	/**
 	 * This function creates the window that will
 	 * contain the Tarot Simulation.
@@ -28,7 +26,7 @@ public class SimulatorWindow {
 		Container contentPane = frame.getContentPane();
 		
 		//Creates a Label and adds it to the content pane #TEST#
-		JLabel textLabel = new JLabel("Testing...",SwingConstants.CENTER);
+		JLabel textLabel = new JLabel("Testing...", SwingConstants.CENTER);
 		textLabel.setPreferredSize(new Dimension(200,200));
 		contentPane.add(textLabel, BorderLayout.CENTER);
 		

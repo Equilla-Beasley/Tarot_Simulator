@@ -1,5 +1,8 @@
 package EquillaBeasley.Tarot_Simulator;
 
+//import java.awt.*;
+//import javax.swing.*;
+
 /**
  * This program simulates a tarot reading.
  * It starts off by creating an interactive window,
@@ -9,7 +12,7 @@ package EquillaBeasley.Tarot_Simulator;
  */
 public class TarotSimulator {
   public static void main(String[] args) {
-	//Runs Program
-    SimulatorWindow.createWindow();
+    SimulatorWindow.createWindow(); //Runs Program
+	  
   }
 }
